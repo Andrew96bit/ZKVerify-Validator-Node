@@ -46,11 +46,11 @@ cd compose-zkverify-simplified
 
 Під час налаштування виберіть наступні опції:
 
-- 2) validator-node
-- 1) testnet
-- 1) yes (після цього створіть ім'я вашого валідатора)
-- 2) no
-- 2) no
+- 2 validator-node
+- 1 testnet
+- 1 yes (після цього створіть ім'я вашого валідатора)
+- 2 no
+- 2 no
 
 ## 6. Запуск ноди
 Запустіть ноду:
@@ -61,8 +61,8 @@ cd compose-zkverify-simplified
 
 Виберіть наступні опції запуску:
 
-- 2) validator-node
-- 1) testnet
+- 2 validator-node
+- 1 testnet
 
 Запустіть Docker Compose для тестової мережі:
 
