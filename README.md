@@ -96,3 +96,34 @@ cat /home/zkverify/compose-zkverify-simplified/deployments/validator-node/testne
 
 ## 12. Перевірка валідатора
 Перевірте ваш валідатор на [Testnet Telemetry](https://testnet-telemetry.zkverify.io/).
+
+---
+
+## Оновлення ноди
+
+1. Перейдіть до каталогу з репозиторієм:
+
+```bash
+cd compose-zkverify-simplified
+```
+
+2. Отримайте останні зміни з репозиторію:
+
+```bash
+git fetch
+git checkout latest_tag
+```
+
+3. Запустіть скрипт оновлення:
+
+```bash
+scripts/update.sh
+```
+
+4. Перезапустіть Docker Compose для оновленої версії:
+
+```bash
+docker compose -f /home/your_user/compose-zkverify-simplified/deployments/rpc-node/testnet/docker-compose.yml up -d --force-recreate
+```
+
+---
